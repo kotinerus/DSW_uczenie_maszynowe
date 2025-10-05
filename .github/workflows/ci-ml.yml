@@ -20,6 +20,7 @@ jobs:
     env:
       APP_NAME: ${{ vars.APP_NAME }}
       MODEL_STORAGE: ${{ vars.MODEL_STORAGE }}
+      MAX_ITER: ${{ vars.MAX_ITER }}
       PYTHON_VERSION: "3.11"
       DATASET_NAME: "iris"
       API_TOKEN: ${{ secrets.API_TOKEN }}
